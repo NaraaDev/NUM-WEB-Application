@@ -1,0 +1,44 @@
+body {
+  font-family: Tahoma;
+  font-size: 40px;
+  height: 100%;
+  margin: 0;
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  display: flex;
+  column-gap: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+span {
+  min-width: 100px;
+  height: 150px;
+  background-color: #eeeff2;
+  color: black;
+  padding: 10px;
+  border-left-style: dotted;
+  border-color: #d0d0ff;
+  border-width: 10px;
+  text-wrap: nowrap;
+  text-emphasis-color: red;
+}
+
+span:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+span:last-child {
+  align-self: flex-end;
+  margin-left: auto;
+}
+span::selection {
+  background: #2f8cfc;
+  color: white;
+}

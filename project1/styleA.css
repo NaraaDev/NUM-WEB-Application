@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Tahoma;
+  font-size: 40px;
+  height: 100%;
+  margin: 0;
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span:nth-child(odd) {
+  background-color: #dfe1e7;
+}
+
+span:nth-child(even) {
+  background-color: #eeeff2;
+}
+
+span:last-child {
+  background-color: #687291;
+  border: solid black 4pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  max-width: 100px;
+  min-width: 100px;
+  height: 100px;
+  text-align: center;
+  border-top: solid #687291 1px;
+}
