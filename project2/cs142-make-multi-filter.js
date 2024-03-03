@@ -11,6 +11,8 @@ function cs142MakeMultiFilter(originalArray) {
     if (typeof callback === "function") {
       callback.call(originalArray, currentArray);
     }
+
+    // is this f*****g recursive  what a hell ???
     return arrayFilter;
   }
   return arrayFilter;
